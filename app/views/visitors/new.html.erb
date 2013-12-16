@@ -1,4 +1,12 @@
 <h3>Home</h3>
+
+<section>
+<img src="http://lorempixel.com/1170/600/cats/1">
+</section>
+
 <p>Welcome to the home of <%= @owner.name %>.</p>
 <p>I was born on <%= @owner.birthdate %>. </p>
 <p>Only <%= @owner.countdown %> days until my birthday!</p>
+<br>
+<br>
+<b>The cake is not here?</b><i> The cake is here <%= link_to 'CAKE LOL', page_path('contact') %>
